@@ -1,0 +1,22 @@
+.window{
+    margin-top: 10px;
+    display: absolute;
+    float: left;
+}
+
+.bar{
+    background-color: greenyellow;
+    height: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px; 
+}
+
+.button{
+    background-color: lightcoral;
+}
+
+.buttonPanel{
+    padding-bottom: 20px;
+    width: 100px;
+    float: right;
+}
