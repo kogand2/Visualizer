@@ -17,8 +17,6 @@ class Visualizer extends React.Component{
                 <button class = "button" onClick = {() => this.changeNumbers()}>Randomize Numbers</button> 
                 <button class = "button" onClick = {() => this.selectionSort()}>Selection Sort</button>
                 <button class = "button" onClick = {() => this.bubbleSort()}>Bubble Sort</button>
-                <button class = "button" onClick = {() => this.mergeSort()}>Merge Sort</button>
-                <button class = "button" onClick = {() => this.heapSort()}>Heap Sort</button>
             </div> 
             <div class= "window">  
                 {numArray.map(num => (
@@ -86,14 +84,6 @@ class Visualizer extends React.Component{
                 }
             }
         }
-    }
-
-    mergeSort(){
-        //TODO
-    }
-
-    heapSort(){
-        //TODO
     }
 
     componentDidMount(){
